@@ -8,8 +8,8 @@ using namespace std;
 
 map<string, set<string>> events;
 
-//Funcion por Lucas, anhadir evento
-void anhadir_evento(const string& date, const string& event);
+//Funcion por Lucas, add_event
+void add_event(const string& date, const string& event);
 
 
 int main(){
@@ -21,7 +21,7 @@ int main(){
     return 0;
 }
 
-//Funcion por Lucas, anhadir evento
-void anhadir_evento(const string& date, const string& event) {
+//Funcion por Lucas, add_event
+void add_event(const string& date, const string& event) {
     events[date].insert(event);
 }
