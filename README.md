@@ -147,6 +147,14 @@ Una base de datos es un sistema para gestionar eficientemente grandes cantidades
 
 ## Descripcion de Funciones y Estructuras
 
+El repositorio consta de 4 elementos importantes que son:
+- examen.h (Todos los prototipos)
+- main.cpp (El main de nuestro codigo)
+- examen.cpp (Todos los cuerpos de las funciones)
+- README.md (Toda la explicacion detallada)
+
+## Descripcion de Funciones y Estructuras
+
 struct Date
 Esta estructura mantiene los componentes de año, mes y día de una fecha ingresada por el usuario. Todos los componentes son de tipo entero para su uso a lo largo de todas las funciones.
 
