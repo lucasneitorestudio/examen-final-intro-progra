@@ -97,3 +97,53 @@ value = m.at(key); / Todo bien
 }
 // ...
 }
+
+## Bases de Datos Existentes
+Una base de datos es un sistema para gestionar eficientemente grandes cantidades de información.
+ A continuación se muestra una comparación de algunos tipos y ejemplos  de bases de datos comunes.
+ - 1. Base de datos relacional (RDBMS) Ejemplos:  MySQL, PostgreSQL, SQLite.
+ Características de : Utilice tablas  para almacenar datos y habilitar relaciones entre ellos.
+ SQL (lenguaje de consulta estructurado) se utiliza para la gestión de datos.
+ Beneficios de : Eficiencia, integridad referencial y coherencia para consultas complejas.
+ Desventajas: Puede ser demasiado complejo para aplicaciones simples y requiere un sistema predefinido.
+ MySQL MySQL es una base de datos muy popular y ampliamente utilizada que facilita la búsqueda de soluciones a problemas y la obtención de soporte.
+ Funciona en múltiples plataformas y es compatible con muchos lenguajes de programación.
+ Sin embargo, son menos flexibles que las bases de datos NoSQL.
+ Al ser de código abierto, no cuenta con el respaldo oficial de una empresa acreditada y tiene una seguridad de  menor calidad  que una base de datos propietaria.
+ PostgreSQL PostgreSQL es altamente extensible y le permite crear tipos de datos  y funciones personalizados.
+ Además, está optimizado para garantizar la confiabilidad de las transacciones y  manejar consultas complejas y grandes cantidades de datos.
+ Sin embargo, debido a que es altamente personalizable, su configuración y mantenimiento requieren más tiempo y esfuerzo, lo que la convierte en una de las bases de datos más complejas de administrar inicialmente.
+ - 2. Bases de datos NoSQL Ejemplos: MongoDB, Cassandra, Redis.
+ Características de : está diseñado para manejar  grandes cantidades de datos distribuidos y no estructurados.
+ Los tipos comunes incluyen bases de datos de documentos, bases de datos en columnas y bases de datos de clave/valor.
+ Beneficios de : Escalabilidad y flexibilidad al trabajar con datos no estructurados.
+ Desventajas: Mala coherencia transaccional y falta de estándares de consulta universales.
+ MongoDB MongoDB es una base de datos no relacional, por lo que es muy flexible y no requiere un esquema fijo.
+ Está diseñado para manejar grandes cantidades de datos.
+ También es muy rápido, lo que facilita la integración en aplicaciones modernas.
+ Sin embargo, dada la cantidad de datos de entrada, normalmente requiere una gran cantidad de memoria.
+ - 3. Bases de datos en memoria Ejemplos: Redis, Memcached.
+ Características: Almacena datos en  RAM para un acceso muy rápido.
+ Ventajas de : Velocidad y eficiencia del acceso a datos de .
+ Desventajas: Volatilidad de los datos y limitaciones del tamaño de almacenamiento.
+ Redis Redis es una base de datos muy rápida y es ideal para operaciones de lectura y escritura.
+ Admite múltiples estructuras de datos, como cadenas, listas y conjuntos.
+ Sin embargo, está limitado por la cantidad de RAM disponible y su estructura no es muy robusta.
+ Además, se utiliza  para el almacenamiento en caché y el almacenamiento temporal (RAM) de datos en lugar de una base de datos a largo plazo.
+ - 4. Base de datos orientada a objetos Ejemplo: db4o, ObjectDB.
+ Función: Almacena datos en forma de objetos utilizados en la programación orientada a objetos.
+ Ventajas de : Integración directa con  lenguajes de programación orientados a objetos, fácil gestión de datos complejos.
+ Desventajas: Menos popular y menos compatible con herramientas  de análisis de datos estándar.
+
+ ## Justificación del Nuevo Desarrollo
+ - Hay varias razones importantes para crear una nueva base de datos específicamente para nuestro proyecto.
+ - Sencillez e idoneidad para su proyecto: Las bases de datos existentes pueden ser demasiado complejas y no adaptarse completamente a las necesidades de su empresa, por lo que necesita un sistema sencillo para manejarlas.
+ evento.
+ - Optimización de recursos: El uso de una base de datos existente puede consumir recursos innecesarios y llevar tiempo configurar y administrar funciones no utilizadas.
+ El desarrollo personalizado es más fácil y está optimizado para cada propósito.
+ - Control total del desarrollo: Desarrollar un sistema  desde cero proporciona un control total y le da al cliente confianza en su operación, lo que permite realizar ajustes a medida que cambian los requisitos.
+ - Seguridad y confidencialidad: La necesidad de almacenar datos confidenciales requiere una base de datos confiable que no esté regulada por  una organización internacional.
+ Al crear su propia base de datos, puede cumplir con los requisitos de seguridad y protección de datos de su empresa.
+
+
+
