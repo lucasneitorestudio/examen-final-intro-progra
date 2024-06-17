@@ -180,3 +180,8 @@ Esta función imprime todos los eventos para todas las fechas almacenadas en el 
 ![alt text](<Diagrama sin título.drawio.png>)
 
 
+## Créditos
+- Lucas Alberto Soria Soliz
+- Ariany Lopéz (mas que nada en el inicio)
+
+## Herramientas utilizadas
