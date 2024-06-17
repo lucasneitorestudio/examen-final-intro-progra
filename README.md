@@ -185,3 +185,9 @@ Esta función imprime todos los eventos para todas las fechas almacenadas en el 
 - Ariany Lopéz (mas que nada en el inicio)
 
 ## Herramientas utilizadas
+
+- Lenguaje de Porgramación: C++
+- MinGW - VS Code
+- Visual Studio Code
+- draw.io
+- Chat GPT
