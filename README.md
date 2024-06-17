@@ -145,5 +145,30 @@ Una base de datos es un sistema para gestionar eficientemente grandes cantidades
  - Seguridad y confidencialidad: La necesidad de almacenar datos confidenciales requiere una base de datos confiable que no esté regulada por  una organización internacional.
  Al crear su propia base de datos, puede cumplir con los requisitos de seguridad y protección de datos de su empresa.
 
+## Descripcion de Funciones y Estructuras
+
+struct Date
+Esta estructura mantiene los componentes de año, mes y día de una fecha ingresada por el usuario. Todos los componentes son de tipo entero para su uso a lo largo de todas las funciones.
+
+void add_event(map<string, set<string>>& events, const string& date_str, const string& event);
+Esta función agrega un evento a la fecha especificada. Recibe como parámetros un mapa de eventos, la fecha a la que se debe agregar el evento (de tipo Date) y la descripción del evento (de tipo string) que el usuario desea agregar.
+
+bool delete_event(map<string, set<string>>& events, const string& date_str, const string& event);
+Esta función elimina un evento específico de una fecha especificada. Retorna un valor booleano que indica si el evento fue eliminado con éxito o no. Los parámetros son el mapa de eventos, la fecha (de tipo Date) y la descripción del evento (de tipo string) a eliminar.
+
+bool validate_date(const string& date_str, string& error_msg);
+Esta función valida el formato y los valores de una fecha, verificando si son válidos. Recibe como parámetros el año, mes y día (todos de tipo int) y una referencia a una cadena (string) que contendrá el mensaje de error si la fecha es inválida.
+
+int delete_date(map<string, set<string>>& events, const string& date_str);
+Esta función elimina todos los eventos de una fecha específica. Los parámetros son el mapa de eventos y la fecha (de tipo Date) de la cual se deben eliminar todos los eventos. Retorna un entero que indica el número de eventos eliminados.
+
+set<string> find(map<string, set<string>>& events, const string& date_str);
+Esta función encuentra y retorna todos los eventos en una fecha específica. Recibe como parámetros el mapa de eventos y la fecha (de tipo Date).
+
+void print_events();
+Esta función imprime todos los eventos para todas las fechas almacenadas en el mapa de eventos. No recibe parámetros adicionales aparte del mapa de eventos.
+
+## Diagrama De Flujo 
+![alt text](<Diagrama sin título.drawio.png>)
 
 
